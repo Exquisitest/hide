@@ -42,6 +42,9 @@ game.CoreGui.PRCSPAWN2:remove()
 game.CoreGui.PRCSPAWN3:remove()
 game.CoreGui.PRCSPAWN4:remove()
 game.CoreGui.PRCSPAWN5:remove()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/minimize/main/show%20button", true))()
+
 tb.Text = "Show"
 end)
+
+tb.MouseButton2Click:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/master-script/main/master%20script", true))()
