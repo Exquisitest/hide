@@ -43,7 +43,6 @@ game.CoreGui.PRCSPAWN3:remove()
 game.CoreGui.PRCSPAWN4:remove()
 game.CoreGui.PRCSPAWN5:remove()
 
-
 end)
 
 tb.MouseButton2Click:connect(function()
