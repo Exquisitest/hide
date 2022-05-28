@@ -42,7 +42,8 @@ game.CoreGui.PRSPAWN2:remove()
 game.CoreGui.PRSPAWN3:remove()
 game.CoreGui.PRSPAWN4:remove()
 game.CoreGui.PRSPAWN5:remove()
--- loadstring for show button here
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/minimize/main/show%20button", true))()
+
 wait(0.01)
 game.CoreGui.Hide:remove()
 end)
