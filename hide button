@@ -43,7 +43,5 @@ game.CoreGui.PRCSPAWN3:remove()
 game.CoreGui.PRCSPAWN4:remove()
 game.CoreGui.PRCSPAWN5:remove()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/minimize/main/show%20button", true))()
-tb:remove()
-tb.Parent:remove()
-tb.Parent.Parent:remove()
+tb.Text = "Show"
 end)
