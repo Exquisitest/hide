@@ -48,3 +48,4 @@ end)
 
 tb.MouseButton2Click:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/master-script/main/master%20script", true))()
+end)
